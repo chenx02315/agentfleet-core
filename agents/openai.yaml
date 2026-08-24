@@ -1,0 +1,4 @@
+interface:
+  display_name: "AgentFleet Core"
+  short_description: "Stable multi-agent orchestration with customizable team profiles"
+  default_prompt: "Use $agentfleet-core to plan and execute this task with the right agent team."
