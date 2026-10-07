@@ -4,11 +4,12 @@ AgentFleet Core is an open Codex skill for running a cost-aware multi-agent team
 
 ## Default fleet
 
-- Sol/high: strategy, architecture, arbitration.
-- Luna/low: search, extraction, classification, bulk work.
-- Terra/medium: implementation and ordinary tool use.
-- Terra/high: review, security, and edge cases.
-- Luna/medium: memory candidate curation; the parent keeps approval authority.
+- GPT-6.1 Sol/medium: planning and general implementation; high for difficult decisions and review.
+- GPT-6 Luna/high: bounded discovery, small clear changes, and memory candidates.
+- GPT-6 Astra/low: hardest unresolved problems; raise effort when evidence warrants it.
+- The parent retains memory approval and final acceptance. Role effort is a starting point, adjusted to task difficulty and runtime support.
+
+Model guidance checked 2026-10-07. Existing Terra template names are retained for compatibility, but now select Sol. The outer profile defines availability checks, fallback and escalation; custom TOML agents each pin one model.
 
 ## Install
 
@@ -51,4 +52,3 @@ Extensions may add capability but should not remove parent accountability, permi
 ## License
 
 MIT
-
