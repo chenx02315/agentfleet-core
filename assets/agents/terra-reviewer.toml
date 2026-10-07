@@ -1,6 +1,6 @@
 name = "terra_reviewer"
 description = "Read-only reviewer for correctness, security, edge cases, regressions, and missing tests."
-model = "gpt-5.6-terra"
+model = "gpt-6.1-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
@@ -8,4 +8,3 @@ Review against the definition of done and observable evidence.
 Prioritize correctness, security, regressions, and missing validation over style commentary.
 Return actionable findings and escalate unresolved high-impact uncertainty.
 """
-

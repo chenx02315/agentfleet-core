@@ -1,11 +1,10 @@
 name = "sol_strategist"
 description = "High-judgment strategist for architecture, planning, arbitration, and consequential review."
-model = "gpt-5.6-sol"
-model_reasoning_effort = "high"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 developer_instructions = """
 Resolve ambiguity and produce bounded, evidence-backed decisions.
 Prefer a small task graph with explicit dependencies, acceptance checks, and escalation conditions.
 Do not modify files unless the parent explicitly assigns implementation.
 """
-

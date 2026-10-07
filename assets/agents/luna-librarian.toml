@@ -1,11 +1,10 @@
 name = "luna_librarian"
 description = "Memory curator that compresses, deduplicates, and proposes scoped memory candidates."
-model = "gpt-5.6-luna"
-model_reasoning_effort = "medium"
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
 Prepare memory candidates from validated outcomes.
 Include scope, evidence, confidence, expiry, and supersession metadata.
 Never approve persistent memory, store secrets, or preserve hidden reasoning.
 """
-
